@@ -19,6 +19,7 @@ main {
     font-size: 32px;
 }
 h2 {
+    text-align: center;
     font-family: 'Megrim', cursive;
     font-size: 24px;
     color: rgb(235, 79, 158)
@@ -61,25 +62,5 @@ nav li {
     margin: 0;
     padding: 0;
 }
-.container-1 {
-    
-    
-    
-}
-.container-2 {
-    
-}
-.container-3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-.container-4 {
-   
-}
-.container-5 {
-   
-}
+
 
