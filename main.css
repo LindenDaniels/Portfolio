@@ -8,8 +8,8 @@ main {
     flex-direction: column;
     font-family: 'Roboto Slab', serif;
     background-color: rgb(242, 217, 218);
-    color: rgb(55, 15, 53);
-    width: 600px;
+    
+    width: 500px;
     
     
     
@@ -50,6 +50,7 @@ nav {
     padding: 0px 20px;
     line-height: 24px;
     text-align: left;
+    color: rgb(55, 15, 53);
     
     
 }
