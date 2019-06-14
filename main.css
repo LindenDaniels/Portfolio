@@ -6,10 +6,18 @@
 main {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(242, 217, 218);
+    color: rgb(55, 15, 53)
     
     
     
    
+}
+h2 {
+    font-family: 'Megrim', cursive;
+    font-size: 32px;
+    color: rgb(235, 79, 158)
 }
 .quiz-app {
     display: block;
@@ -17,20 +25,26 @@ main {
     margin-right: auto;
     max-width: 50%;
     max-height: 50%;
-    
+  
 }
-
+span {
+    color: rgb(194, 138, 216);
+}
+nav {
+    font-size: 16px;
+}
 
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     min-height: 200px;
-    font-size: 1em;
-    color: black;
+    font-size: 18px;
+    
     padding: 30px;
-    line-height: 1.8;
+    line-height: 24px;
+    text-align: left;
     
     
 }
@@ -39,24 +53,24 @@ nav li {
     
 }
 .container-1 {
-    border: 1px solid black;
+    
     
     
 }
 .container-2 {
-    border: 1px solid black;
+    
 }
 .container-3 {
     display: flex;
     align-items: center;
     justify-content: center;
     
-    border: 1px solid black;
+    
 }
 .container-4 {
-    border: 1px solid black;
+   
 }
 .container-5 {
-    border: 1px solid black;
+   
 }
 
