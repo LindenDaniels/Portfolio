@@ -21,8 +21,8 @@ h2, h1 {
     text-align: center;
     font-family: 'Megrim', cursive;
     font-size: 24px;
-    /*color: rgb(235, 79, 158)*/
-    color: #760d42;
+    color: rgb(235, 79, 158)
+    /*color: #760d42;*/
 }
 .fab-container {  
    display: flex;
@@ -31,8 +31,8 @@ h2, h1 {
 }
 .fab {
     font-size: 13px;
-    /*color: rgb(194, 138, 216);*/
-    color: #672a7d;
+    color: rgb(194, 138, 216);
+    /*color: #672a7d;*/
 }
 .quiz-app {
     display: inline-block;
@@ -46,8 +46,8 @@ h2, h1 {
     text-align: center;
 }
 span {
-    /*color: rgb(194, 138, 216);*/
-    color: #672a7d;
+    color: rgb(194, 138, 216);
+    /*color: #672a7d;*/
 }
 .email {
     text-align: center;
