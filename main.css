@@ -14,9 +14,12 @@ main {
     
    
 }
+#my-name {
+    font-size: 32px;
+}
 h2 {
     font-family: 'Megrim', cursive;
-    font-size: 18px;
+    font-size: 24px;
     color: rgb(235, 79, 158)
 }
 .quiz-app {
