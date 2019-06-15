@@ -14,10 +14,17 @@ a, #github-link, #linked-in-link {
     color: #3358c6
 }
 a:hover {
-    background-color: white;
+    color: white;
     
 
 }
+#github-link:hover {
+    color: white;
+}
+#linked-in-link:hover {
+    color: white;
+}
+
 .important-stuff {
     text-align: left;
     font-size: 24px;
