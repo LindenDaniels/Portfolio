@@ -14,15 +14,14 @@ a, #github-link, #linked-in-link {
     color: #3358c6
 }
 a:hover {
-    color: white;
+    color: #8b39ab;
     
-
 }
 #github-link:hover {
-    color: white;
+    color: #8b39ab;
 }
 #linked-in-link:hover {
-    color: white;
+    color: #8b39ab;
 }
 
 .important-stuff {
@@ -54,10 +53,7 @@ h2, h1 {
 #css3-icon {
     color: rgb(50, 172, 225)
 }
-/*.fab {
-    font-size: 16px;
-    color: #8b39ab;
-}*/
+
 .quiz-app {
     display: inline-block;
     margin-left: auto;
@@ -122,12 +118,13 @@ span {
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    /*background-color: #ddd;*/
+    background-color: #8b39ab;
+    /*color: black;*/
   }
   
   .topnav a.active {
-    background-color:#39823c;
+    background-color: #e4197f;
     color: white;
   }
   
@@ -247,19 +244,35 @@ span {
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    /*background-color: #ddd;*/
+    background-color: #8b39ab;
+    /*color: black;*/
   }
   
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #e4197f;
     color: white;
   }
   
   .topnav .icon {
     display: none;
   }
-  
+  .image-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+}
+.imggur-img {
+    display: block;
+}
  
+ .fab-container {
+     position: absolute;
+     top: 0;
+     left: -50;
+ }
+ .quiz-app {
+     width: 100%;
+ }
    
      
