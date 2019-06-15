@@ -94,10 +94,13 @@ nav li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    color: rgb(121, 78, 175);
     
 }
-
-@media screen and (min-width: 1000px) {
+.fa-github, .fa-linkedin {
+    color: rgb(121, 78, 175);
+}
+@media screen and (min-width: 768px) {
     main {
         display: flex;
         justify-content: flex-start;
@@ -107,18 +110,24 @@ nav li {
     .container {
         width: 40%;
         font-size: 20px;
-        line-height: 29px;
+        line-height: 30px;
+        padding: 0px;
     }
     #my-name {
         font-size: 61.04px;
+        line-height: 48px;
     }
     .important-stuff {
         font-size: 39.06px;
-        line-height: 42px;
+        line-height: 48px;
     }
     h2 {
         font-size: 39.06px;
     }
-   
+    .fab {
+        font-size: 16px;
+    }
+  
+   }
 
 
