@@ -11,7 +11,11 @@ main {
     padding-bottom: 10px;
 }
 a, #github-link, #linked-in-link {
-    color: rgb(194, 138, 216)
+    color: #3358c6
+}
+a:hover {
+    background-color: #ddd;
+
 }
 .important-stuff {
     text-align: left;
@@ -115,7 +119,7 @@ span {
   }
   
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color:#39823c;
     color: white;
   }
   
