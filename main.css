@@ -14,7 +14,8 @@ a, #github-link, #linked-in-link {
     color: #3358c6
 }
 a:hover {
-    background-color: #ddd;
+    background-color: white;
+    
 
 }
 .important-stuff {
