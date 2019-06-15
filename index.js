@@ -1,9 +1,8 @@
-function myGitHub() {
-    console.log('`myGitHub ran`')
-    $('#github-link').on('click', function(event) {
-        event.PreventDefault();
-        window.open("https://github.com/LindenDaniels");
-
-    });
-    $(myGitHub);
-}
+function myFunction() {
+    let x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
