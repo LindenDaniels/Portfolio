@@ -10,7 +10,7 @@ main {
     height: 100%;
     padding-bottom: 10px;
 }
-a {
+a, #github-link, #linked-in-link {
     color: rgb(194, 138, 216)
 }
 .important-stuff {
@@ -42,10 +42,10 @@ h2, h1 {
 #css-icon {
     color: rgb(50, 172, 225)
 }
-.fab {
+/*.fab {
     font-size: 16px;
     color: #8b39ab;
-}
+}*/
 .quiz-app {
     display: inline-block;
     margin-left: auto;
