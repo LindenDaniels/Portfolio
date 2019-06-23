@@ -1,82 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="normalize.css">
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Megrim&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Linden's Portfolio</title>
-    </head>
-    <body>
-        <main>
-            <nav>
-            <div class="topnav" id="myTopnav">
-                <a href="#home" class="active">Home</a>
-                <a href="#contact">Contact</a>
-                <a href="#bio">Bio</a>
-                <a href="#projects">Projects</a>
-                <a href="javascript:void(0);" class="icon" onclick="handleNavBar()">
-                  <i class="fa fa-bars"></i>
-                </a>
-              </div>
-              </nav>
-        <div class="center-content">   
-        <div class="container container-1" id="home">
-                <header>
-                        <h1 id="my-name"> Hello! I'm Linden.</h1>
-                    </header>
-                      <p class="important-stuff">I'm a <span>Web Developer</span>.<br>I can use <span>HTML, CSS</span> and <span>JavaScript</span>.</p>
-        </div>
-        <div class="container container-2" id="bio">
-                <p>I love the <span>creativity</span> that goes into coding and making a website design look <span> beautiful </span>on different devices. When I'm not programming,
-                    I enjoy reading and watching TV. I love media that gets me thinking about what the <span>future of technology</span> could look like.</p>  
-        </div>
-        <div class="container container-3" id="projects">
-            <header>
-                <h2>Game of Thrones Quiz App</h2>
-            </header>
-            <div class="img-and-fab">
-            <a href="https://ibb.co/ZVYH9SS" class="imggur-img">
-            <div class="image-wrapper">
-            <img src="https://i.ibb.co/Xb3yHDD/Screen-Shot-2019-06-13-at-2-46-13-PM.png" class="quiz-app" alt="Quiz App Screenshot">
-            <div class="fab-container">
-            <i class='fab fa-html5' id="html-5-icon"></i><i class='fab fa-css3-alt' id="css3-icon"></i><i class='fab fa-js-square' id="js-icon"></i>
-            </div>
-            </div>
-            </a>
-            </div>
-            <ul class="work-links">
-                <a href="https://github.com/LindenDaniels/Quiz-App" target="_blank"><li>Repo</li></a>
-                <a href="https://lindendaniels.github.io/Quiz-App/" target="_blank"><li>Live</li></a>
-            </ul>      
-        </div>
-        <div class="container container-4">
-            <header>
-                <h2 id="GoT-App">Are you a fan of Game of Thrones?</h2>
-            </header>
-            <p class="projects-text">Take this quiz to find out if you can survive the World of Westeros. <span>Game of Thrones Quiz App</span> is a website
-                that guides you through a quiz of Game of Thrones related questions, and tells you how you did at the end.</p>
-        </div>
-            <div class="container container-5">
-                <header>
-                    <h2>Contact Me</h2>
 
-                </header>
-                        <div class="contact-icons" id="contact">
-                        
-                            <a href="mailto:lindendaniels@gmail.com" target="_blank"><i class="material-icons" style="font-size:36px">email</i></a>
-                        <a href="https://github.com/LindenDaniels" target="_blank"><i class='fab fa-github' id="github-link" style='font-size:36px'></i></a>
-                        <a href="https://www.linkedin.com/in/lindendaniels/" target="_blank"><i class='fab fa-linkedin' id="linked-in-link" style='font-size:36px'></i></a>
-                        </div>   
-            </div>
-            </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-            <script src="index.js"></script> 
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Megrim&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Linden's Portfolio</title>
+</head>
 
-    </main>
-    </body>
+<body>
+	<main>
+		<nav>
+			<section class="topnav" id="myTopnav"> <a href="#home" class="active">Home</a> <a href="#contact">Contact</a> <a href="#bio">Bio</a> <a href="#projects">Projects</a>
+				<a href="javascript:void(0);" class="icon" onclick="handleNavBar()"> <i class="fa fa-bars"></i> </a>
+			</section>
+		</nav>
+		<div class="center-content">
+			<section class="container container-1" id="home">
+				<header>
+					<h1 id="my-name"> Hello! I'm Linden.</h1> </header>
+				<p class="important-stuff">I'm a <span>Web Developer</span>.
+					<br>I can use <span>HTML, CSS</span> and <span>JavaScript</span>.</p>
+			</section>
+			<section class="container container-2" id="bio">
+				<p>I love the <span>creativity</span> that goes into coding and making a website design look <span> beautiful </span>on different devices. When I'm not programming, I enjoy reading and watching TV. I love media that gets me thinking about what the <span>future of technology</span> could look like.</p>
+			</section>
+			<section class="container container-3" id="projects">
+				<header>
+					<h2>Game of Thrones Quiz App</h2> </header>
+				<div class="img-and-fab">
+					<a href="https://ibb.co/ZVYH9SS" class="imggur-img">
+						<div class="image-wrapper"> <img src="https://i.ibb.co/Xb3yHDD/Screen-Shot-2019-06-13-at-2-46-13-PM.png" class="quiz-app" alt="Quiz App Screenshot">
+							<div class="fab-container"> <i class='fab fa-html5' id="html-5-icon"></i><i class='fab fa-css3-alt' id="css3-icon"></i><i class='fab fa-js-square' id="js-icon"></i> </div>
+						</div>
+					</a>
+				</div>
+				<ul class="work-links">
+					<a href="https://github.com/LindenDaniels/Quiz-App" target="_blank">
+						<li>Repo</li>
+					</a>
+					<a href="https://lindendaniels.github.io/Quiz-App/" target="_blank">
+						<li>Live</li>
+					</a>
+				</ul>
+			</section>
+			<section class="container container-4">
+				<header>
+					<h2 id="GoT-App">Are you a fan of Game of Thrones?</h2> </header>
+				<p class="projects-text">Take this quiz to find out if you can survive the World of Westeros. <span>Game of Thrones Quiz App</span> is a website that guides you through a quiz of Game of Thrones related questions, and tells you how you did at the end.</p>
+			</section>
+			<section class="container container-5">
+				<header>
+					<h2>Contact Me</h2> </header>
+				<div class="contact-icons" id="contact"> <a href="mailto:lindendaniels@gmail.com" target="_blank"><i class="material-icons" style="font-size:36px">email</i></a> <a href="https://github.com/LindenDaniels" target="_blank"><i class='fab fa-github' id="github-link" style='font-size:36px'></i></a> <a href="https://www.linkedin.com/in/lindendaniels/" target="_blank"><i class='fab fa-linkedin' id="linked-in-link" style='font-size:36px'></i></a> </div>
+		</div>
+		</section>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="index.js"></script>
+	</main>
+</body>
+
 </html>
