@@ -212,7 +212,7 @@ span {
 		padding: 0px;
 	}
 
-	#GoT-App {
+	.app-heading {
 		text-align: left;
 		padding-left: 60px;
 	}
@@ -254,7 +254,7 @@ span {
 		margin: 0;
 	}
 
-	#projects {
+	.projects {
 		padding-bottom: 15px;
 	}
 
